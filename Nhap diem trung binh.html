@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Tính điểm trung bình của học sinh </title>
+</head>
+<body>
+<script>
+    var name = prompt("Moi dien ten hoc sinh", '');
+    document.write("Ten hoc sinh ", name);
+    document.write("<br/>");
+    var dly = parseInt(prompt("Moi nhap diem Ly", ''));
+    document.write("Diem Ly: ", dly);
+    document.write("<br/>");
+    var dhoa = parseInt(prompt("Moi nhap diem Hoa", ''));
+    document.write("Diem Hoa:", dhoa);
+    document.write("<br/>");
+    var dsinh = parseInt(prompt("Moi nhap diem sinh", ''));
+    document.write("Diem Sinh:", dsinh );
+    document.write("<br/>");
+    var dtb  ;
+    dtb = (dly + dhoa + dsinh) /3;
+    document.write("Diem trung binh la: ", dtb);
+</script>
+</body>
+</html>
